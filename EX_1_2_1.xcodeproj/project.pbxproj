@@ -21,6 +21,15 @@
 		00A9B641187E5B94005B520C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A9B623187E5B93005B520C /* UIKit.framework */; };
 		00A9B649187E5B94005B520C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A9B647187E5B94005B520C /* InfoPlist.strings */; };
 		00A9B64B187E5B94005B520C /* EX_1_2_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9B64A187E5B94005B520C /* EX_1_2_1Tests.m */; };
+		00A9B659187E5BD3005B520C /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9B656187E5BD3005B520C /* Product.m */; };
+		00A9B65A187E5BD3005B520C /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A9B658187E5BD3005B520C /* ProductCell.m */; };
+		00B30EE7187E77BE00379CFD /* addcart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE1187E77BE00379CFD /* addcart.jpeg */; };
+		00B30EE8187E77BE00379CFD /* baseball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE2187E77BE00379CFD /* baseball.jpeg */; };
+		00B30EE9187E77BE00379CFD /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE3187E77BE00379CFD /* basketball.png */; };
+		00B30EEA187E77BE00379CFD /* football.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE4187E77BE00379CFD /* football.jpeg */; };
+		00B30EEB187E77BE00379CFD /* rugbyball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE5187E77BE00379CFD /* rugbyball.jpeg */; };
+		00B30EEC187E77BE00379CFD /* volleyball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00B30EE6187E77BE00379CFD /* volleyball.jpeg */; };
+		00B30EEF187E784800379CFD /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B30EEE187E784800379CFD /* Catalog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,19 @@
 		00A9B646187E5B94005B520C /* EX_1_2_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EX_1_2_1Tests-Info.plist"; sourceTree = "<group>"; };
 		00A9B648187E5B94005B520C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00A9B64A187E5B94005B520C /* EX_1_2_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EX_1_2_1Tests.m; sourceTree = "<group>"; };
+		00A9B654187E5BB3005B520C /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		00A9B656187E5BD3005B520C /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		00A9B657187E5BD3005B520C /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		00A9B658187E5BD3005B520C /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		00B30EE1187E77BE00379CFD /* addcart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addcart.jpeg; sourceTree = "<group>"; };
+		00B30EE2187E77BE00379CFD /* baseball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseball.jpeg; sourceTree = "<group>"; };
+		00B30EE3187E77BE00379CFD /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		00B30EE4187E77BE00379CFD /* football.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = football.jpeg; sourceTree = "<group>"; };
+		00B30EE5187E77BE00379CFD /* rugbyball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rugbyball.jpeg; sourceTree = "<group>"; };
+		00B30EE6187E77BE00379CFD /* volleyball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volleyball.jpeg; sourceTree = "<group>"; };
+		00B30EED187E784800379CFD /* Catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catalog.h; sourceTree = "<group>"; };
+		00B30EEE187E784800379CFD /* Catalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catalog.m; sourceTree = "<group>"; };
+		00B30EF0187E819900379CFD /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +104,7 @@
 		00A9B613187E5B93005B520C = {
 			isa = PBXGroup;
 			children = (
+				00B30EE0187E777400379CFD /* Res */,
 				00A9B625187E5B93005B520C /* EX_1_2_1 */,
 				00A9B644187E5B94005B520C /* EX_1_2_1Tests */,
 				00A9B61E187E5B93005B520C /* Frameworks */,
@@ -112,6 +135,10 @@
 		00A9B625187E5B93005B520C /* EX_1_2_1 */ = {
 			isa = PBXGroup;
 			children = (
+				00A9B656187E5BD3005B520C /* Product.m */,
+				00A9B657187E5BD3005B520C /* ProductCell.h */,
+				00A9B658187E5BD3005B520C /* ProductCell.m */,
+				00A9B654187E5BB3005B520C /* Product.h */,
 				00A9B62E187E5B93005B520C /* AppDelegate.h */,
 				00A9B62F187E5B93005B520C /* AppDelegate.m */,
 				00A9B631187E5B93005B520C /* Main.storyboard */,
@@ -119,6 +146,9 @@
 				00A9B635187E5B93005B520C /* ViewController.m */,
 				00A9B637187E5B93005B520C /* Images.xcassets */,
 				00A9B626187E5B93005B520C /* Supporting Files */,
+				00B30EED187E784800379CFD /* Catalog.h */,
+				00B30EEE187E784800379CFD /* Catalog.m */,
+				00B30EF0187E819900379CFD /* CartDelegate.h */,
 			);
 			path = EX_1_2_1;
 			sourceTree = "<group>";
@@ -150,6 +180,19 @@
 				00A9B647187E5B94005B520C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B30EE0187E777400379CFD /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00B30EE1187E77BE00379CFD /* addcart.jpeg */,
+				00B30EE2187E77BE00379CFD /* baseball.jpeg */,
+				00B30EE3187E77BE00379CFD /* basketball.png */,
+				00B30EE4187E77BE00379CFD /* football.jpeg */,
+				00B30EE5187E77BE00379CFD /* rugbyball.jpeg */,
+				00B30EE6187E77BE00379CFD /* volleyball.jpeg */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B30EE8187E77BE00379CFD /* baseball.jpeg in Resources */,
 				00A9B638187E5B93005B520C /* Images.xcassets in Resources */,
 				00A9B62A187E5B93005B520C /* InfoPlist.strings in Resources */,
+				00B30EEA187E77BE00379CFD /* football.jpeg in Resources */,
 				00A9B633187E5B93005B520C /* Main.storyboard in Resources */,
+				00B30EEC187E77BE00379CFD /* volleyball.jpeg in Resources */,
+				00B30EE9187E77BE00379CFD /* basketball.png in Resources */,
+				00B30EEB187E77BE00379CFD /* rugbyball.jpeg in Resources */,
+				00B30EE7187E77BE00379CFD /* addcart.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A9B65A187E5BD3005B520C /* ProductCell.m in Sources */,
 				00A9B636187E5B93005B520C /* ViewController.m in Sources */,
+				00A9B659187E5BD3005B520C /* Product.m in Sources */,
 				00A9B630187E5B93005B520C /* AppDelegate.m in Sources */,
 				00A9B62C187E5B93005B520C /* main.m in Sources */,
+				00B30EEF187E784800379CFD /* Catalog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +512,7 @@
 				00A9B650187E5B94005B520C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A9B651187E5B94005B520C /* Build configuration list for PBXNativeTarget "EX_1_2_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +521,7 @@
 				00A9B653187E5B94005B520C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
